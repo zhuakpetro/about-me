@@ -1,0 +1,510 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+        
+}
+body{
+    overflow-x: hidden;
+}
+/*БЛОК1*/
+a, button, .header_section_block{
+    cursor: pointer;
+}
+.container {
+    width: 1240px;
+    margin: 0 auto;
+}
+.header_section,
+.header_section_navigation_list_item,
+.main_section {
+    display: inline-block;
+}
+.header {
+    width: 1240px;
+    height: 745px;
+}
+li a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none
+}
+.header_section_navigation_list_item {
+    line-height: 60px;
+    margin-left: 10px;
+    font-size: 16px;
+    color: #006AA7;
+}
+.header_section_span {
+    font-size: 50px;
+}
+.header_section_title {
+    font-size: 100px;
+    margin-top: 100px;
+}
+.header_section_text {
+    font-size: 16px;
+    margin-top: 8px;
+}
+.header_section_block {
+    width: 360px;
+    height: 50px;
+    font-size: 16px;
+    text-align: center;
+    background: #006AA7;
+    box-shadow: 0px 4px 5px #969696;
+    line-height: 50px;
+    margin-top: 13px;
+    color: #fff;
+}
+
+.header_section_block:hover {
+    background: #ffff00;
+}
+.header_section_navigation_list {
+    display: inline-block;
+    width: 346px;
+    height: 60px;
+}
+.header_section_navigation_icon,
+.header_block1_icon {
+    float: right;
+}
+.header_section {
+    float: left;
+    margin-top: 23px;
+}
+/*БЛОК2*/
+.main {
+    width: 1240px;
+    height: 410px;
+    background: #dfe2e4;
+    padding-top: 25px;
+}
+.main_title {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.main_section {
+    width: 260px;
+    height: 250px;
+    margin-left: 37px;
+    background: #ffffff;
+    padding: 10px;
+}
+.main_section:hover {
+    background: #006AA7;
+}
+.main_section_title {
+    font-size: 16px;
+}
+.main_section_text {
+    margin-top: 15px;
+}
+.exciting_block {
+    width: 120px;
+    height: 50px;
+    float: right
+}
+.main_section_icon {
+    margin-bottom: 15px;
+}
+.exciting_block .main_section_icon {
+    float: right;
+    margin-top: 5px;
+}
+.exciting_block .main_section_text {
+    line-height: 50px;
+    margin-top: 0px;
+    display: inline-block;
+}
+.about_cossacks { 
+    width: 12px;
+}
+/*БЛОК3*/
+.about_cossacks {
+    width: 1240px;
+    height: 310px;
+    padding-top: 25px;
+}
+.about_cossacks_title {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 22px;
+}
+.about_cossacks-wrapper {
+    width: 12430px;
+}
+.encompassing_block,
+.about_cossacks-description,
+.about_cossacks-values,
+.about_cossacks-character {
+    display: inline-block;
+}
+.encompassing_block {
+    width: 817px;
+    height: 180px;
+    margin-left: 65px;
+    margin-right: 15px;
+    float: left;
+}
+.about_cossacks-description {
+    width: 530px;
+    height: 180px;
+    background: #006AA7;
+    border-radius: 10px;
+    padding: 30px;
+}
+.about_cossacks-values,
+.about_cossacks-character {
+    width: 270px;
+    height: 180px;
+    border-radius: 10px;
+    border: 3px solid grey;
+    padding: 10px;
+}
+.about_cossacks-values {
+    float: right;
+}
+.encompassing_block2 {
+    width: 366px;
+    height: 119px;
+    display: inline-block;
+}
+.encompassing_block2_title {
+    font-size: 25px
+}
+.about_cossacks_text,
+.encompassing_block2_text {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.encompassing_block2_title,
+.encompassing_block2_text {
+    color: #fff;
+}
+.about_cossacks-description_icon {
+    float: right;
+}
+/*БЛОК4*/
+.Symbol_of_Ukrain {
+    width: 1240px;
+    height: 450px;
+    background: rgb(255, 190, 49);
+    padding: 30px;
+    border-radius: 5px;
+}
+.Storage_unit {
+    width: 1180px;
+    height: 350px;
+}
+.Free_sky {
+    width: 600px;
+    float: left;
+}
+.Symbol_of_Ukrain_title,
+.Free_sky_text {
+    font-size: 19px;
+    margin-top: 25px;
+}
+.Storage_unit_icon {
+    float: right;
+}
+.Symbol_of_Ukrain_title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.Symbol_of_Ukrain_title,
+.Free_sky_text:nth-child(1) {
+    margin-top: 0px;
+}
+.Free_sky_block {
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 50px;
+    border: 2px solid black;
+    box-shadow: 0px 4px 5px #969696;
+    border-radius: 14px;
+    margin-top: 40px;
+}
+/*БЛОК5*/
+.quotes_of_ukrain_text,
+.quotes_of_ukrain_text {
+    text-align: center;
+}
+.quotes_of_ukrain_text {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.class2 {
+    margin-top: 14px;
+}
+.quotes_of_ukrain_encompassing_block {
+    width: 1155px;
+    height: 180px;
+    margin: 0 auto;
+}
+.quotes_of_ukrain_encompassing_block_encompassing_block_encompassing_block {
+    width: 565px;
+    height: 180px;
+    display: inline-block
+}
+.quotes_of_ukrain_encompassing_block_encompassing_block_encompassing_block:nth-child(1) {
+    float: left;
+}
+.quotes_of_ukrain_encompassing_block_encompassing_block_encompassing_block:nth-child(2) {
+    float: right;
+}
+.quotes_of_ukrain_encompassing_block_positive_example,
+.quotes_of_ukrain_encompassing_block_fearlessness,
+.uotes_of_ukrain_encompassing_block_truth,
+.quotes_of_ukrain_encompassing_block_independence {
+    width: 270px;
+    height: 180px;
+    border-radius: 10px;
+    border: 3px solid grey;
+    padding: 16px;
+    display: inline-block;
+}
+.quotes_of_ukrain_encompassing_block_independence {
+    float: right;
+}
+.quotes_of_ukrain_encompassing_block_positive_example {
+    float: right;
+}
+/*БЛОК6*/
+.quotes_of_ukrain2 {
+    width: 1140px;
+    height: 500px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.quotes_of_ukrain2_block_with_pictures {
+    width: 1140px;
+    margin: 0 auto;
+}
+.quotes_of_ukrain2_block_with_pictures_icon {
+    margin-left: 23px;
+}
+.quotes_of_ukrain2_title {
+    margin-bottom: 10px;
+}
+.pan_zelenskyy {
+    width: 800px;
+    height: 250px;
+    margin-top: 28px;
+    margin-left: 170px;
+    background: #006AA7;
+    padding: 25px;
+    border-radius: 5px;
+}
+.pan_zelenskyy_text {
+    color: #fff;
+    font-size: 33px;
+    display: inline-block;
+    margin-left: 20px;
+}
+.pan_zelenskyy_icon {
+    float: right;
+    margin-right: 20px;
+}
+/*БЛОК7*/
+.marafon {
+    width: 1240px;
+    height: 360px;
+}
+.marafon_title,
+.marafon_text {
+    text-align: center;
+    font-size: 24px;
+}
+.marafon_text {
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-top: 3px;
+}
+.opinions_of_Ukraine {
+    width: 1070px;
+    height: 250px;
+    margin: 0 auto;
+}
+.opinions_of_Ukraine_encompassing {
+    width: 710px;
+    height: 120px;
+    /* display: inline-block; */
+    float: right;
+}
+.opinion {
+    width: 350px;
+    height: 120px;
+    display: inline-block;
+    background: yellow;
+    border-radius: 7px;
+    padding: 10px;
+}
+.opinions_of_Ukraine_encompassing .opinion:nth-child(2) {
+    float: right;
+}
+.two_class {
+    margin-top: 10px;
+}
+.opinion_icon {
+    width: 100px;
+    height: 100px;
+}
+.block_text {
+    width: 220px;
+    height: 100px;
+    /* display: inline-block; */
+    float: right;
+}
+.opinion_text {
+    float: right;
+    font-size: 15px;
+    margin-right: 40px;
+}
+/*БЛОК8*/
+.future_ukrain {
+    width: 1240px;
+    height: 630px;
+    background: #dfe2e4;
+    padding-top: 40px;
+    ;
+}
+.future_ukrain_title,
+.future_ukrain_title2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.future_ukrain_title {
+    margin-bottom: 0px;
+}
+.future_ukrain_encompassing_block {
+    width: 1240px;
+}
+.future_ukrain_encompassing_block_ncompassing_block {
+    height: 230px;
+    width: 1125px;
+    margin: 0 auto;
+}
+.encompassing_for_block {
+    width: 706px;
+    height: 230px;
+    /* display: inline-block; */
+    margin-right: 25px;
+    ;
+    float: right;
+}
+.value {
+    width: 340px;
+    height: 230px;
+    display: inline-block;
+    background: white;
+    padding: 15px;
+}
+.value:hover {
+    background: #006AA7;
+}
+.margin-left {
+    margin-left: 25px;
+}
+.float_right {
+    float: right;
+}
+.value_text {
+    margin-top: 10px;
+}
+.future_ukrain_encompassing_block2 {
+    width: 1068px;
+    height: 200px;
+    margin-top: 25px;
+    margin-left: 27px;
+}
+.projekt_ukrain,
+.sky_ukrain {
+    width: 520px;
+    height: 200px;
+    display: inline-block;
+    background: white;
+    padding: 15px;
+    ;
+}
+.sky_ukrain {
+    float: right;
+}
+.projekt_ukrain:hover,
+.sky_ukrain:hover {
+    background: #006AA7;
+}
+.sky_ukrain_text,
+.projekt_ukrain_text {
+    margin-top: 10px;
+}
+/*БЛОК9*/
+.free_people {
+    width: 1240px;
+    height: 270px;
+    background: #dfe2e4;
+}
+.free_people_text,.limb_text {
+    font-size: 19px;
+    text-align: center;
+}
+.free_people_text {
+    margin-bottom: 30px;
+}
+.free_people_icon {
+    margin-left: 20px;
+}
+.free_people_text_block {
+    width: 1095px;
+    margin: 0 auto;
+}
+/*БЛОК10*/
+.encompassing_block_stiker {
+    height: 620px;
+    width: 1240px;
+    background: #dfe2e4;
+}
+.encompassing_block_stiker_title {
+    text-align: center;
+}
+.encompassing_block_stikers {
+    width: 1240px;
+    height: 150px;
+    margin-top: 35px;
+}
+.stiker {
+    margin-left: 44px;
+    width: 150px;
+    height: 150px;
+}
+/*БЛОК11*/
+.limb{
+    width: 1240px;
+    height: 100px;
+    background: #006AA7;
+    padding-top: 20px;;
+}
+.limb_text{
+    color: #fff;
+    float: left;
+    line-height: 60px;;
+}
+.avtor{
+    width: 300px;
+    height: 60px;
+    margin-left: 470px;
+}
+.floatridth{
+    float: right;
+}
+.Free_sky_block:hover{
+    background:#BD930A;
+}
